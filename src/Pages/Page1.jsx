@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 const Page1 = () => {
   return (
-    <div className='text-white'>Page1</div>
+    <div>
+      <Navbar />
+    </div>
   )
 }
 
